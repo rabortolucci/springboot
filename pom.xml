@@ -7,6 +7,20 @@
     <groupId>springbootquickstart</groupId>
     <artifactId>springboot</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Spring boot course</name>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.2.RELEASE</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>
