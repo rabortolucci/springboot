@@ -35,5 +35,11 @@
         <property name="y" value="0"></property>
     </bean>
 
+    <bean id="circle" class="springcourse.Circle">
+        <property name="center" ref="pointA"></property>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
+
 
 </beans>
