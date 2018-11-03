@@ -8,7 +8,10 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String sayHi(){
-        return "hi";
+        return "hello";
     }
+
+    @RequestMapping("/private")
+    public String privateArea(){ return "Private area"; }
 
 }
