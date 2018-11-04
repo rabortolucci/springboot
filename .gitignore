@@ -3,4 +3,4 @@ workspace.xml
 tasks.xml
 /out
 /target
-.log
+*.log
